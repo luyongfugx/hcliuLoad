@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+</HEAD>
+
+<BODY>
+localstorage js hcliuLoad test
+<script type="text/javascript" src="hcliuLoad.js"></script>
+<script>
+/*
+@param url js地址，参数表版本号
+@param store 表示是否存入localstorage
+@param mode 表示更新模式，只有store为true的时候才有作用，inc 为true表示增量更新，为false表示全亮更新
+hcliuRequire.load({"url":"http://3gimg.qq.com/microblog/touch/client.js?2013062401016","store":true,"inc":true},function(){alert("load callback!")});
+http://3gimg.qq.com/microblog/touch/client-2013062401016.js
+*/
+hcliuLoad.load({"url":"http://3gimg.qq.com/microblog/touch/client.js?2013062401016","store":true,"inc":true},function(){alert("load callback!")});
+</script>
+</BODY>
+</HTML>

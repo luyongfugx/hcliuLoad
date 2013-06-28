@@ -1,0 +1,1 @@
+var x="qqqqqqc",y="hellocc",z="zzzzffvcvcvdddccc ffx";alert(x+y+z);var ramdom="Keep in mind aaaathat thanks to the awesome sensibilities of the GitHub team, gists are just repos. So feel free to clone yours and work locally for a more comfortable environment, and to allow commit messages";alert(ramdom);

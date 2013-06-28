@@ -1,0 +1,4 @@
+current Version: 2013062801007
+build ./release/client-{ver}.js
+copy client.js
+java -jar E:\newworkspace\press\hcliuLoad\./lib/compiler.jar --charset utf8 --language_in ECMASCRIPT5 --compilation_level SIMPLE_OPTIMIZATIONS  --js E:\newworkspace\press\hcliuLoad\_tmp/client-{ver}_1372388242941.js --js_output_file ./release/client-2013062801007.js
